@@ -1,0 +1,16 @@
+
+.addres,.order{background-color: #fff; margin-top: 10px;  border:1px solid #eee;}
+.addres{padding:10px; line-height: 30px; font-size: 12px;}
+.addres .right{ position: absolute;right: 10px; top: 0 }
+.addres p{position: relative;}
+.order-title{border-bottom: 1px solid #eee; padding-left: 10px; font-weight:bold;line-height: 30px;}
+.order ul{padding:10px 0;}
+.order ul li{display:flex;display:-webkit-flex;display:-webkit-box;box-orient:horizontal;-webkit-box-orient:horizontal;align-items:center;-webkit-align-items:center;justify-content:center;line-height: 30px; border-bottom: 1px solid #eee; padding: 0 10px;}
+.order ul li span{box-flex:1; -webkit-box-flex:1; display: block; text-align: right;}
+.order ul li span:first-of-type{text-align: left; font-size: 12px;}
+.order ul li img{width:65px; border: 1px solid #eee;margin-right:10px;}
+.order .no{line-height: 30px; padding: 10px;}
+.order .no a{color:#bf392a; display: block;}
+ .arrow {background-position: -32px -26px;width: 7px;height: 12px;position: absolute;right: 0.5rem;top: 0.75rem;}
+ .add-addres{position: relative;}
+

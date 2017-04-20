@@ -1,0 +1,9 @@
+.addres-list li {background-color: #fff;margin-top:10px;padding: 10px; border: 2px solid #eee;}
+.addres-list li.active{border:2px solid #EE7A23;}
+.addres-list li dl{font-size: 12px; line-height: 30px; position: relative;}
+.addres-list li .tel{position: absolute; top: 0; right: 0}
+.addres-list li .addr-set-default a{text-decoration: none;color: #666; }
+.addres-list li .addr-set-default i{font-style: normal;font-size: 12px;}
+.addres-list .addr-default{color: #EE7A23;font-size: 12px;}
+.btn{line-height: 36px; height: 36px;border: none; border-radius: 4px; display: block;width:100%;}
+.btn-danger{background-color: #D0112c;color: #fff; }

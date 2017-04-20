@@ -1,0 +1,37 @@
+.e_head{width:100%; position:relative; background-color:#fff; height: 50px; line-height: 50px; overflow: hidden;}
+.lf input[type='radio']{display:none;}
+.lf label{position: relative;margin-left:0.5rem;}
+.lf label:before{content:"";border:1px solid #99a0b2;margin-right:10px; width:19px; height:19px; background-color:#fff;display:inline-block;vertical-align: middle;border-radius:50%;  position:relative}
+.lf label.check:after{content: "";width: 10px; height: 10px; display: block;position: absolute;background: #bf392a;top: 4px;left: 4px;border-radius: 50%;}
+.lf .text{line-height: 50px;display: inline-block; vertical-align: middle; margin-left:15px;}
+.cancel{line-height: 50px;display: inline-block; color: #ff0000;padding-left:30px; }
+
+.buy-list li{border:1px solid #dedede; border-left:none; border-right:none; background-color:#fff;padding:12px 6px; min-height:80px; position:relative;margin-top:-1px;}
+.buy-list li .list-item{display:-webkit-box; display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;}
+.buy-list li .p{ margin-right:10px;}
+.buy-list li .p input[type='radio']{display:none;}
+.buy-list li .p label{border:1px solid #99a0b2; width:19px; height:19px; background-color:#fff;display:inline-block;border-radius:50%; margin: 40px 0; position:relative;margin-right:8px;margin-left: 3px;}
+.buy-list li .p label.check:before{content:"";width:10px; height:10px; display:block; position:absolute;background:#bf392a; top:4px; left:4px; border-radius:50%;}
+.buy-list li .p img{width:90px; height:104px; border:1px solid #ccc;}
+.buy-list li .d{margin:4px 10px 6px 0;-webkit-box-flex:1;-moz-box-flex:1;-ms-flex:1;flex:1; position:relative; width:1 }
+.buy-list li .d a{color:#333;text-decoration:none; display:block;}
+.buy-list li .d .d-price{position:relative;margin-top:2rem;height:30px; }
+.buy-list li .d h3{font-size:0.7rem; font-weight:700; }
+.buy-list li .d p.summy{font-size:0.6rem;}
+.buy-list li .d .price-num{color:#ff0000; font-size:0.7rem; font-weight:700; line-height:30px; display:inherit;}
+.buy-list li .d .count{ position:absolute;right:0; font-size:0.7rem; font-weight:700; top:0.6rem;}
+.buy-list li .d .count .num{width:1rem; text-align:center; border:1px solid #dedede; width:20px; height:20px; display:inline-block; text-align:center;}
+.buy-list li .d .count .add,.buy-list li .d .count .minus{border:1px solid #4a8d09; border-radius:50%; color:#4a8d09; background-color:#fff; width:20px; height:20px; font-weight:bold; font-size:0.7rem; outline:none; display:inline-block; text-align:center;}
+.buy-list li .d .buy-car{ width:25px; height:25px; position:absolute; background-color:#f02b2b; border-radius:2px; right:0; top:0;}
+.buy-list li .d .icon_buy{width:21px; height:21px; background-position:-27px -42px; vertical-align: top; margin-top:4px;}
+
+.item-include{clear: both;margin-top: 10px;padding: 0 10px 0 36px;}
+.item-include dl dt{float: left;;width:56px;}
+.item-include dl dd{margin-bottom: 13px;padding-left: 56px;color: #999;}
+
+.settlement{width:100%; height:2rem; position:fixed; z-index:2; bottom:0; left:0; background-color:#fff; border-top:1px solid #ccc; background-color:#f2f2f2}
+.settlement_left{width:50%;line-height:1rem; overflow:hidden; float:left; font-size:0.7rem; color:#9b9b9c;padding-top:0.5rem;}
+.settlement_left .total_txt{margin-left:0.5rem; fibt-size:0.9rem; font-weight:700; }
+.settlement_left .total_num{font-size:0.7rem; font-weight:700; font-family:'微软雅黑',Arial; color:#bf392a;}
+.settlement_right{width:50%; overflow:hidden; float:right;}
+.settlement_right .oconfirm{width:80%; height:2rem; line-height:2rem; font-size:0.7rem; float:right; border:0; background-color:#bf392a;color:#fff; font-weight:700; text-align:center; text-decoration:none}
