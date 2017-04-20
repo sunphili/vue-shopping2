@@ -30,7 +30,7 @@
         <a href="#" class="oconfirm" @click.prevent='submit()'>提交订单</a>
     </div>
   </div>
-  <!--  -->
+  <!--  弹窗-->
   <transition name="fade">	
   <div class="modal" v-if="modalShow" @click="modalShow=false">
   	<div class="modal-container">
